@@ -1,0 +1,28 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-08-17 23:17:37 +0930"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:stony_shore": "2024-08-17 23:17:58 +0930",
+      "minecraft:forest": "2024-08-17 23:17:39 +0930"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2024-08-18 00:10:15 +0930"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_wood_slab": "2024-08-18 00:10:15 +0930"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
