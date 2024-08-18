@@ -24,6 +24,8 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
+import java.util.Objects;
+
 public class SlabBlock extends Block implements SimpleWaterloggedBlock {
     public static final EnumProperty<SlabType> TYPE = EnumProperty.create("type", net.salami.slabandstairmod.blocks.slabs.SlabType.class);
 
@@ -84,16 +86,16 @@ public class SlabBlock extends Block implements SimpleWaterloggedBlock {
                 if(direction == Direction.DOWN)
                     return blockstate1.setValue(TYPE, SlabType.TOP);
 
-                if(direction == Direction.WEST)
+                if(direction == Direction.EAST)
                     return blockstate1.setValue(TYPE, SlabType.LEFT);
 
-                if(direction == Direction.EAST)
+                if(direction == Direction.WEST)
                     return blockstate1.setValue(TYPE, SlabType.RIGHT);
 
-                if(direction == Direction.NORTH)
+                if(direction == Direction.SOUTH)
                     return blockstate1.setValue(TYPE, SlabType.BACK);
 
-                if(direction == Direction.SOUTH)
+                if(direction == Direction.NORTH)
                     return blockstate1.setValue(TYPE, SlabType.FRONT);
             }
             else
@@ -106,6 +108,11 @@ public class SlabBlock extends Block implements SimpleWaterloggedBlock {
 
     // TODO: maybe a bug here
     public boolean canBeReplaced(BlockState pState, BlockPlaceContext pUseContext) {
+        if(Objects.requireNonNull(pUseContext.getPlayer()).isCrouching())
+        {
+            return false;
+        }
+
         ItemStack itemstack = pUseContext.getItemInHand();
         SlabType slabtype = pState.getValue(TYPE);
         if (slabtype != SlabType.DOUBLE && itemstack.is(this.asItem())) {
