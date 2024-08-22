@@ -1,8 +1,0 @@
-{
-  "parent": "slabandstairmod:block/slab_left",
-  "textures": {
-    "bottom": "slabandstairmod:block/acacia_planks",
-    "side": "slabandstairmod:block/acacia_planks",
-    "top": "slabandstairmod:block/acacia_planks"
-  }
-}

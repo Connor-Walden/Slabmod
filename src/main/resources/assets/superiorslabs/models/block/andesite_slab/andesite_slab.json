@@ -1,0 +1,8 @@
+{
+  "parent": "superiorslabs:block/slab",
+  "textures": {
+    "bottom": "superiorslabs:block/andesite",
+    "side": "superiorslabs:block/andesite",
+    "top": "superiorslabs:block/andesite"
+  }
+}

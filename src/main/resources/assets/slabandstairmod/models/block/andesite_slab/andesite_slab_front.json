@@ -1,8 +1,0 @@
-{
-  "parent": "slabandstairmod:block/slab_front",
-  "textures": {
-    "bottom": "slabandstairmod:block/andesite",
-    "side": "slabandstairmod:block/andesite",
-    "top": "slabandstairmod:block/andesite"
-  }
-}

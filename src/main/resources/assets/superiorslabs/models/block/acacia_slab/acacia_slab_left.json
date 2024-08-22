@@ -1,0 +1,8 @@
+{
+  "parent": "superiorslabs:block/slab_left",
+  "textures": {
+    "bottom": "superiorslabs:block/acacia_planks",
+    "side": "superiorslabs:block/acacia_planks",
+    "top": "superiorslabs:block/acacia_planks"
+  }
+}

@@ -74,7 +74,7 @@ java.lang.RuntimeException: null
 		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
 		at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
 	Caused by: java.lang.ExceptionInInitializerError
-		at net.salami.slabandstairmod.blocks.ModBlocks.lambda$static$0(ModBlocks.java:25) ~[%23196!/:?] {re:classloading}
+		at net.salami.superiorslabs.blocks.ModBlocks.lambda$static$0(ModBlocks.java:25) ~[%23196!/:?] {re:classloading}
 		at net.minecraftforge.registries.DeferredRegister.lambda$addEntries$1(DeferredRegister.java:386) ~[forge-1.20.1-47.3.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23190%23197!/:?] {re:classloading}
 		at net.minecraftforge.registries.RegisterEvent.register(RegisterEvent.java:59) ~[forge-1.20.1-47.3.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23190%23197!/:?] {re:classloading,pl:eventbus:A}
 		at net.minecraftforge.registries.DeferredRegister.addEntries(DeferredRegister.java:386) ~[forge-1.20.1-47.3.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23190%23197!/:?] {re:classloading}
@@ -90,8 +90,8 @@ java.lang.RuntimeException: null
 		at net.minecraft.world.level.block.state.properties.EnumProperty.create(EnumProperty.java:93) ~[forge-1.20.1-47.3.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/:?] {re:classloading}
 		at net.minecraft.world.level.block.state.properties.EnumProperty.create(EnumProperty.java:79) ~[forge-1.20.1-47.3.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/:?] {re:classloading}
 		at net.minecraft.world.level.block.state.properties.EnumProperty.create(EnumProperty.java:70) ~[forge-1.20.1-47.3.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/:?] {re:classloading}
-		at net.salami.slabandstairmod.blocks.slabs.SlabBlock.<clinit>(SlabBlock.java:28) ~[%23196!/:?] {re:classloading}
-		at net.salami.slabandstairmod.blocks.ModBlocks.lambda$static$0(ModBlocks.java:25) ~[%23196!/:?] {re:classloading}
+		at net.salami.superiorslabs.blocks.slabs.SlabBlock.<clinit>(SlabBlock.java:28) ~[%23196!/:?] {re:classloading}
+		at net.salami.superiorslabs.blocks.ModBlocks.lambda$static$0(ModBlocks.java:25) ~[%23196!/:?] {re:classloading}
 		at net.minecraftforge.registries.DeferredRegister.lambda$addEntries$1(DeferredRegister.java:386) ~[forge-1.20.1-47.3.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23190%23197!/:?] {re:classloading}
 		at net.minecraftforge.registries.RegisterEvent.register(RegisterEvent.java:59) ~[forge-1.20.1-47.3.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23190%23197!/:?] {re:classloading,pl:eventbus:A}
 		at net.minecraftforge.registries.DeferredRegister.addEntries(DeferredRegister.java:386) ~[forge-1.20.1-47.3.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23190%23197!/:?] {re:classloading}
@@ -143,7 +143,7 @@ java.lang.RuntimeException: null
 	Caused by: java.lang.NullPointerException: Registry Object not present: slabandstairmod:prismarine_slab
 		at java.util.Objects.requireNonNull(Objects.java:336) ~[?:?] {}
 		at net.minecraftforge.registries.RegistryObject.get(RegistryObject.java:204) ~[forge-1.20.1-47.3.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23190%23197!/:?] {re:classloading}
-		at net.salami.slabandstairmod.blocks.ModBlocks.lambda$registerBlockItem$53(ModBlocks.java:88) ~[%23196!/:?] {re:classloading}
+		at net.salami.superiorslabs.blocks.ModBlocks.lambda$registerBlockItem$53(ModBlocks.java:88) ~[%23196!/:?] {re:classloading}
 		at net.minecraftforge.registries.DeferredRegister.lambda$addEntries$1(DeferredRegister.java:386) ~[forge-1.20.1-47.3.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23190%23197!/:?] {re:classloading}
 		at net.minecraftforge.registries.RegisterEvent.register(RegisterEvent.java:59) ~[forge-1.20.1-47.3.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23190%23197!/:?] {re:classloading,pl:eventbus:A}
 		at net.minecraftforge.registries.DeferredRegister.addEntries(DeferredRegister.java:386) ~[forge-1.20.1-47.3.6_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23190%23197!/:?] {re:classloading}
