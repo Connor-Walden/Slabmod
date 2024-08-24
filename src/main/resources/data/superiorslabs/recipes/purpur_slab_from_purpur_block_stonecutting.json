@@ -4,5 +4,5 @@
   "ingredient": {
     "item": "minecraft:purpur_block"
   },
-  "result": "minecraft:purpur_slab"
+  "result": "superiorslabs:purpur_slab"
 }

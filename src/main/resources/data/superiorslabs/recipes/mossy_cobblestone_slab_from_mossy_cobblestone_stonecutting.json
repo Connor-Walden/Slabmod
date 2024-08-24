@@ -4,5 +4,5 @@
   "ingredient": {
     "item": "minecraft:mossy_cobblestone"
   },
-  "result": "minecraft:mossy_cobblestone_slab"
+  "result": "superiorslabs:mossy_cobblestone_slab"
 }

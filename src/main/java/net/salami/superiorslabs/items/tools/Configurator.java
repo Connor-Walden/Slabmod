@@ -41,6 +41,41 @@ public class Configurator extends Item
         ssList.add("block.superiorslabs.dark_prismarine_slab");
         ssList.add("block.superiorslabs.deepslate_brick_slab");
         ssList.add("block.superiorslabs.deepslate_tile_slab");
+        ssList.add("block.superiorslabs.diorite_slab");
+        ssList.add("block.superiorslabs.end_stone_brick_slab");
+        ssList.add("block.superiorslabs.exposed_cut_copper_slab");
+        ssList.add("block.superiorslabs.granite_slab");
+        ssList.add("block.superiorslabs.jungle_slab");
+        ssList.add("block.superiorslabs.mangrove_slab");
+        ssList.add("block.superiorslabs.mossy_cobblestone_slab");
+        ssList.add("block.superiorslabs.mossy_stone_brick_slab");
+        ssList.add("block.superiorslabs.mud_brick_slab");
+        ssList.add("block.superiorslabs.nether_brick_slab");
+        ssList.add("block.superiorslabs.oak_slab");
+        ssList.add("block.superiorslabs.oxidized_cut_copper_slab");
+        ssList.add("block.superiorslabs.petrified_oak_slab");
+        ssList.add("block.superiorslabs.polished_andesite_slab");
+        ssList.add("block.superiorslabs.polished_blackstone_brick_slab");
+        ssList.add("block.superiorslabs.polished_blackstone_slab");
+        ssList.add("block.superiorslabs.polished_deepslate_slab");
+        ssList.add("block.superiorslabs.polished_diorite_slab");
+        ssList.add("block.superiorslabs.polished_granite_slab");
+        ssList.add("block.superiorslabs.prismarine_brick_slab");
+        ssList.add("block.superiorslabs.prismarine_slab");
+        ssList.add("block.superiorslabs.purpur_slab");
+        ssList.add("block.superiorslabs.quartz_slab");
+        ssList.add("block.superiorslabs.red_nether_brick_slab");
+        ssList.add("block.superiorslabs.red_sandstone_slab");
+        ssList.add("block.superiorslabs.sandstone_slab");
+        ssList.add("block.superiorslabs.smooth_quartz_slab");
+        ssList.add("block.superiorslabs.smooth_red_sandstone_slab");
+        ssList.add("block.superiorslabs.smooth_sandstone_slab");
+        ssList.add("block.superiorslabs.smooth_stone_slab");
+        ssList.add("block.superiorslabs.spruce_slab");
+        ssList.add("block.superiorslabs.stone_brick_slab");
+        ssList.add("block.superiorslabs.stone_slab");
+        ssList.add("block.superiorslabs.warped_slab");
+        ssList.add("block.superiorslabs.weathered_cut_copper_slab");
     }
 
     public InteractionResult useOn(UseOnContext pContext)

@@ -62,6 +62,42 @@ public class Slabmod
             event.accept(ModBlocks.DARK_PRISMARINE_SLAB);
             event.accept(ModBlocks.DEEPSLATE_BRICK_SLAB);
             event.accept(ModBlocks.DEEPSLATE_TILE_SLAB);
+            event.accept(ModBlocks.DIORITE_SLAB);
+            event.accept(ModBlocks.END_STONE_BRICK_SLAB);
+            event.accept(ModBlocks.EXPOSED_CUT_COPPER_SLAB);
+            event.accept(ModBlocks.GRANITE_SLAB);
+            event.accept(ModBlocks.JUNGLE_SLAB);
+            event.accept(ModBlocks.MANGROVE_SLAB);
+            event.accept(ModBlocks.MOSSY_COBBLESTONE_SLAB);
+            event.accept(ModBlocks.MOSSY_STONE_BRICK_SLAB);
+            event.accept(ModBlocks.MUD_BRICK_SLAB);
+            event.accept(ModBlocks.NETHER_BRICK_SLAB);
+            event.accept(ModBlocks.OAK_SLAB);
+            event.accept(ModBlocks.OXIDIZED_CUT_COPPER_SLAB);
+            event.accept(ModBlocks.PETRIFIED_OAK_SLAB);
+            event.accept(ModBlocks.POLISHED_ANDESITE_SLAB);
+            event.accept(ModBlocks.POLISHED_BLACKSTONE_BRICK_SLAB);
+            event.accept(ModBlocks.POLISHED_BLACKSTONE_SLAB);
+            event.accept(ModBlocks.POLISHED_DEEPSLATE_SLAB);
+            event.accept(ModBlocks.POLISHED_DIORITE_SLAB);
+            event.accept(ModBlocks.POLISHED_GRANITE_SLAB);
+            event.accept(ModBlocks.PRISMARINE_SLAB);
+            event.accept(ModBlocks.PRISMARINE_BRICK_SLAB);
+            event.accept(ModBlocks.PURPUR_SLAB);
+            event.accept(ModBlocks.QUARTZ_SLAB);
+            event.accept(ModBlocks.RED_NETHER_BRICK_SLAB);
+            event.accept(ModBlocks.RED_SANDSTONE_SLAB);
+            event.accept(ModBlocks.SANDSTONE_SLAB);
+            event.accept(ModBlocks.SMOOTH_QUARTZ_SLAB);
+            event.accept(ModBlocks.SMOOTH_RED_SANDSTONE_SLAB);
+            event.accept(ModBlocks.SMOOTH_RED_SANDSTONE_SLAB);
+            event.accept(ModBlocks.SMOOTH_SANDSTONE_SLAB);
+            event.accept(ModBlocks.SMOOTH_STONE_SLAB);
+            event.accept(ModBlocks.SPRUCE_SLAB);
+            event.accept(ModBlocks.STONE_BRICK_SLAB);
+            event.accept(ModBlocks.STONE_SLAB);
+            event.accept(ModBlocks.WARPED_SLAB);
+            event.accept(ModBlocks.WEATHERED_CUT_COPPER_SLAB);
         }
     }
 

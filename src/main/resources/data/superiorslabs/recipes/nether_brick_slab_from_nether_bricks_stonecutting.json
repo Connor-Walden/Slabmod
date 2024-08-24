@@ -4,5 +4,5 @@
   "ingredient": {
     "item": "minecraft:nether_bricks"
   },
-  "result": "minecraft:nether_brick_slab"
+  "result": "superiorslabs:nether_brick_slab"
 }

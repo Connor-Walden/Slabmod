@@ -4,5 +4,5 @@
   "ingredient": {
     "item": "minecraft:red_sandstone"
   },
-  "result": "minecraft:red_sandstone_slab"
+  "result": "superiorslabs:red_sandstone_slab"
 }

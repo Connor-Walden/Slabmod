@@ -4,5 +4,5 @@
   "ingredient": {
     "item": "minecraft:prismarine_bricks"
   },
-  "result": "minecraft:prismarine_brick_slab"
+  "result": "superiorslabs:prismarine_brick_slab"
 }

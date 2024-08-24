@@ -4,5 +4,5 @@
   "ingredient": {
     "item": "minecraft:smooth_quartz"
   },
-  "result": "minecraft:smooth_quartz_slab"
+  "result": "superiorslabs:smooth_quartz_slab"
 }

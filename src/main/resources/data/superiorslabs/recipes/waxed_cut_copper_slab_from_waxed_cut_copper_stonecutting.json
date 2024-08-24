@@ -4,5 +4,5 @@
   "ingredient": {
     "item": "minecraft:waxed_cut_copper"
   },
-  "result": "minecraft:waxed_cut_copper_slab"
+  "result": "superiorslabs:waxed_cut_copper_slab"
 }

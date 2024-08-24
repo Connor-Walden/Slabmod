@@ -4,5 +4,5 @@
   "ingredient": {
     "item": "minecraft:weathered_copper"
   },
-  "result": "minecraft:weathered_cut_copper_slab"
+  "result": "superiorslabs:weathered_cut_copper_slab"
 }

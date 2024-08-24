@@ -4,5 +4,5 @@
   "ingredient": {
     "item": "minecraft:mud_bricks"
   },
-  "result": "minecraft:mud_brick_slab"
+  "result": "superiorslabs:mud_brick_slab"
 }
