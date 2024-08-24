@@ -12,5 +12,11 @@
   "block.superiorslabs.cobbled_deepslate_slab": "Cobbled Deepslate Slab",
   "block.superiorslabs.cobblestone_slab": "Cobblestone Slab",
   "block.superiorslabs.crimson_slab": "Crimson Slab",
-  "block.superiorslabs.cut_copper_slab": "Cut Copper Slab"
+  "block.superiorslabs.cut_copper_slab": "Cut Copper Slab",
+  "block.superiorslabs.cut_red_sandstone_slab": "Cut Red Sandstone Slab",
+  "block.superiorslabs.cut_sandstone_slab": "Cut Sandstone Slab",
+  "block.superiorslabs.dark_oak_slab": "Dark Oak Slab",
+  "block.superiorslabs.dark_prismarine_slab": "Dark Prismarine Slab",
+  "block.superiorslabs.deepslate_brick_slab": "Deepslate Brick Slab",
+  "block.superiorslabs.deepslate_tile_slab": "Deepslate Tile Slab"
 }

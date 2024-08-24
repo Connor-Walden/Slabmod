@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "superiorslabs:block/deepslate_tile_slab/deepslate_tile_slab"
+    },
+    "type=top": {
+      "model": "superiorslabs:block/deepslate_tile_slab/deepslate_tile_slab_top"
+    },
+    "type=left": {
+      "model": "superiorslabs:block/deepslate_tile_slab/deepslate_tile_slab_left"
+    },
+    "type=right": {
+      "model": "superiorslabs:block/deepslate_tile_slab/deepslate_tile_slab_right"
+    },
+    "type=front": {
+      "model": "superiorslabs:block/deepslate_tile_slab/deepslate_tile_slab_front"
+    },
+    "type=back": {
+      "model": "superiorslabs:block/deepslate_tile_slab/deepslate_tile_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/deepslate_tile"
+    }
+  }
+}

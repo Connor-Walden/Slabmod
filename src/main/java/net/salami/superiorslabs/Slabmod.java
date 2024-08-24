@@ -56,6 +56,12 @@ public class Slabmod
             event.accept(ModBlocks.COBBLESTONE_SLAB);
             event.accept(ModBlocks.CRIMSON_SLAB);
             event.accept(ModBlocks.CUT_COPPER_SLAB);
+            event.accept(ModBlocks.CUT_RED_SANDSTONE_SLAB);
+            event.accept(ModBlocks.CUT_SANDSTONE_SLAB);
+            event.accept(ModBlocks.DARK_OAK_SLAB);
+            event.accept(ModBlocks.DARK_PRISMARINE_SLAB);
+            event.accept(ModBlocks.DEEPSLATE_BRICK_SLAB);
+            event.accept(ModBlocks.DEEPSLATE_TILE_SLAB);
         }
     }
 

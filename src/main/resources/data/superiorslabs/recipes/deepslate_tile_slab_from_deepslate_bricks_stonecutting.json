@@ -4,5 +4,5 @@
   "ingredient": {
     "item": "minecraft:deepslate_bricks"
   },
-  "result": "minecraft:deepslate_tile_slab"
+  "result": "superiorslabs:deepslate_tile_slab"
 }
