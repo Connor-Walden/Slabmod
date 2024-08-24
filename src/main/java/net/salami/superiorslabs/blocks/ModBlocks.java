@@ -30,6 +30,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> BLACKSTONE_SLAB = registerBlock("blackstone_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE_SLAB)));
     public static final RegistryObject<Block> BRICK_SLAB = registerBlock("brick_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_SLAB)));
     public static final RegistryObject<Block> CHERRY_SLAB = registerBlock("cherry_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_SLAB)));
+    public static final RegistryObject<Block> COBBLED_DEEPSLATE_SLAB = registerBlock("cobbled_deepslate_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE_SLAB)));
+    public static final RegistryObject<Block> COBBLESTONE_SLAB = registerBlock("cobblestone_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE_SLAB)));
+    public static final RegistryObject<Block> CRIMSON_SLAB = registerBlock("crimson_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_SLAB)));
+    public static final RegistryObject<Block> CUT_COPPER_SLAB = registerBlock("cut_copper_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CUT_COPPER_SLAB)));
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block)

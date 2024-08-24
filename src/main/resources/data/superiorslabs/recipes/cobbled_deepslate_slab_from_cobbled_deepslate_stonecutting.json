@@ -4,5 +4,5 @@
   "ingredient": {
     "item": "minecraft:cobbled_deepslate"
   },
-  "result": "minecraft:cobbled_deepslate_slab"
+  "result": "superiorslabs:cobbled_deepslate_slab"
 }

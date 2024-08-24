@@ -31,6 +31,10 @@ public class Configurator extends Item
         ssList.add("block.superiorslabs.blackstone_slab");
         ssList.add("block.superiorslabs.brick_slab");
         ssList.add("block.superiorslabs.cherry_slab");
+        ssList.add("block.superiorslabs.cobbled_deppslate_slab");
+        ssList.add("block.superiorslabs.cobblestone_slab");
+        ssList.add("block.superiorslabs.crimson_slab");
+        ssList.add("block.superiorslabs.cut_copper_slab");
     }
 
     public InteractionResult useOn(UseOnContext pContext)

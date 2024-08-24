@@ -282,15 +282,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2024-08-22 22:28:10 +0930"
-    },
-    "done": true
-  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2024-08-22 22:28:09 +0930"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2024-08-22 22:28:10 +0930"
     },
     "done": true
   },
@@ -339,6 +339,12 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2024-08-22 22:28:10 +0930"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-08-24 12:45:39 +0930"
     },
     "done": true
   },

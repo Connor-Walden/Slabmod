@@ -8,5 +8,9 @@
   "block.superiorslabs.birch_slab": "Birch Slab",
   "block.superiorslabs.blackstone_slab": "Blackstone Slab",
   "block.superiorslabs.brick_slab": "Brick Slab",
-  "block.superiorslabs.cherry_slab": "Cherry Slab"
+  "block.superiorslabs.cherry_slab": "Cherry Slab",
+  "block.superiorslabs.cobbled_deepslate_slab": "Cobbled Deepslate Slab",
+  "block.superiorslabs.cobblestone_slab": "Cobblestone Slab",
+  "block.superiorslabs.crimson_slab": "Crimson Slab",
+  "block.superiorslabs.cut_copper_slab": "Cut Copper Slab"
 }
