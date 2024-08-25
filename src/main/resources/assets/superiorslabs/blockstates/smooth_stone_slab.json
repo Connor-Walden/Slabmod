@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "superiorslabs:block/smooth_stone_slab/smooth_stone_slab"
+    },
+    "type=top": {
+      "model": "superiorslabs:block/smooth_stone_slab/smooth_stone_slab_top"
+    },
+    "type=left": {
+      "model": "superiorslabs:block/smooth_stone_slab/smooth_stone_slab_left"
+    },
+    "type=right": {
+      "model": "superiorslabs:block/smooth_stone_slab/smooth_stone_slab_right"
+    },
+    "type=front": {
+      "model": "superiorslabs:block/smooth_stone_slab/smooth_stone_slab_front"
+    },
+    "type=back": {
+      "model": "superiorslabs:block/smooth_stone_slab/smooth_stone_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/smooth_stone"
+    }
+  }
+}

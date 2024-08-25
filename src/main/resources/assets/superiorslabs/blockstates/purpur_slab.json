@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "superiorslabs:block/purpur_slab/purpur_slab"
+    },
+    "type=top": {
+      "model": "superiorslabs:block/purpur_slab/purpur_slab_top"
+    },
+    "type=left": {
+      "model": "superiorslabs:block/purpur_slab/purpur_slab_left"
+    },
+    "type=right": {
+      "model": "superiorslabs:block/purpur_slab/purpur_slab_right"
+    },
+    "type=front": {
+      "model": "superiorslabs:block/purpur_slab/purpur_slab_front"
+    },
+    "type=back": {
+      "model": "superiorslabs:block/purpur_slab/purpur_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/purpur"
+    }
+  }
+}

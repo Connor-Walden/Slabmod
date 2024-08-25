@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "superiorslabs:block/red_nether_brick_slab/red_nether_brick_slab"
+    },
+    "type=top": {
+      "model": "superiorslabs:block/red_nether_brick_slab/red_nether_brick_slab_top"
+    },
+    "type=left": {
+      "model": "superiorslabs:block/red_nether_brick_slab/red_nether_brick_slab_left"
+    },
+    "type=right": {
+      "model": "superiorslabs:block/red_nether_brick_slab/red_nether_brick_slab_right"
+    },
+    "type=front": {
+      "model": "superiorslabs:block/red_nether_brick_slab/red_nether_brick_slab_front"
+    },
+    "type=back": {
+      "model": "superiorslabs:block/red_nether_brick_slab/red_nether_brick_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/red_nether_brick"
+    }
+  }
+}

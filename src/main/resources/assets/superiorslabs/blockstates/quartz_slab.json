@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "superiorslabs:block/quartz_slab/quartz_slab"
+    },
+    "type=top": {
+      "model": "superiorslabs:block/quartz_slab/quartz_slab_top"
+    },
+    "type=left": {
+      "model": "superiorslabs:block/quartz_slab/quartz_slab_left"
+    },
+    "type=right": {
+      "model": "superiorslabs:block/quartz_slab/quartz_slab_right"
+    },
+    "type=front": {
+      "model": "superiorslabs:block/quartz_slab/quartz_slab_front"
+    },
+    "type=back": {
+      "model": "superiorslabs:block/quartz_slab/quartz_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/quartz_block"
+    }
+  }
+}

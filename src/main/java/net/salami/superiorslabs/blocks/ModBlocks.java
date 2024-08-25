@@ -4,10 +4,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
-import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -17,6 +14,10 @@ import net.salami.superiorslabs.blocks.slabs.SlabBlock;
 import net.salami.superiorslabs.items.ModItems;
 
 import java.util.function.Supplier;
+
+
+// SLABS
+// replaces vanilla slabs and adds a few more slab variants to satisfy your building needs!
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Slabmod.MOD_ID);
@@ -69,13 +70,14 @@ public class ModBlocks {
     public static final RegistryObject<Block> SMOOTH_QUARTZ_SLAB = registerBlock("smooth_quartz_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_QUARTZ_SLAB)));
     public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_SLAB = registerBlock("smooth_red_sandstone_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_RED_SANDSTONE_SLAB)));
     public static final RegistryObject<Block> SMOOTH_SANDSTONE_SLAB = registerBlock("smooth_sandstone_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_SANDSTONE_SLAB)));
-    public static final RegistryObject<Block> SMOOTH_STONE_SLAB = registerBlock("smooth_stone_sandstone_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB)));
+    public static final RegistryObject<Block> SMOOTH_STONE_SLAB = registerBlock("smooth_stone_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE_SLAB)));
     public static final RegistryObject<Block> SPRUCE_SLAB = registerBlock("spruce_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_SLAB)));
     public static final RegistryObject<Block> STONE_BRICK_SLAB = registerBlock("stone_brick_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICK_SLAB)));
     public static final RegistryObject<Block> STONE_SLAB = registerBlock("stone_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE_SLAB)));
     public static final RegistryObject<Block> WARPED_SLAB = registerBlock("warped_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_SLAB)));
     public static final RegistryObject<Block> WEATHERED_CUT_COPPER_SLAB = registerBlock("weathered_cut_copper_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.WEATHERED_CUT_COPPER_SLAB)));
 
+    // Make sure to register the block and the block item
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
@@ -83,6 +85,7 @@ public class ModBlocks {
         return toReturn;
     }
 
+    // This separates the block items from regular items, keeps the 'ModItems' file clean.
     private static <T extends Block>RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block)
     {
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));

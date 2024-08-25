@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "superiorslabs:block/granite_slab/granite_slab"
+    },
+    "type=top": {
+      "model": "superiorslabs:block/granite_slab/granite_slab_top"
+    },
+    "type=left": {
+      "model": "superiorslabs:block/granite_slab/granite_slab_left"
+    },
+    "type=right": {
+      "model": "superiorslabs:block/granite_slab/granite_slab_right"
+    },
+    "type=front": {
+      "model": "superiorslabs:block/granite_slab/granite_slab_front"
+    },
+    "type=back": {
+      "model": "superiorslabs:block/granite_slab/granite_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/granite"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "superiorslabs:block/spruce_slab/spruce_slab"
+    },
+    "type=top": {
+      "model": "superiorslabs:block/spruce_slab/spruce_slab_top"
+    },
+    "type=left": {
+      "model": "superiorslabs:block/spruce_slab/spruce_slab_left"
+    },
+    "type=right": {
+      "model": "superiorslabs:block/spruce_slab/spruce_slab_right"
+    },
+    "type=front": {
+      "model": "superiorslabs:block/spruce_slab/spruce_slab_front"
+    },
+    "type=back": {
+      "model": "superiorslabs:block/spruce_slab/spruce_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/spruce_planks"
+    }
+  }
+}

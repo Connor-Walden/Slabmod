@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "superiorslabs:block/warped_slab/warped_slab"
+    },
+    "type=top": {
+      "model": "superiorslabs:block/warped_slab/warped_slab_top"
+    },
+    "type=left": {
+      "model": "superiorslabs:block/warped_slab/warped_slab_left"
+    },
+    "type=right": {
+      "model": "superiorslabs:block/warped_slab/warped_slab_right"
+    },
+    "type=front": {
+      "model": "superiorslabs:block/warped_slab/warped_slab_front"
+    },
+    "type=back": {
+      "model": "superiorslabs:block/warped_slab/warped_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/warped_planks"
+    }
+  }
+}
