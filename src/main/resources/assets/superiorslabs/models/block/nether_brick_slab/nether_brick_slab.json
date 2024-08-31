@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/slab",
+  "parent": "superiorslabs:block/slab",
   "textures": {
     "bottom": "minecraft:block/nether_bricks",
     "side": "minecraft:block/nether_bricks",
