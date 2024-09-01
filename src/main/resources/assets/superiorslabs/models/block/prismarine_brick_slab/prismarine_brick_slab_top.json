@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/slab_top",
+  "parent": "superiorslabs:block/slab_top",
   "textures": {
     "bottom": "minecraft:block/prismarine_bricks",
     "side": "minecraft:block/prismarine_bricks",

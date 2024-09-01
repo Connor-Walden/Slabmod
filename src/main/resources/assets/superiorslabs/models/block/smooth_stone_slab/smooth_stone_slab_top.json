@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/slab_top",
+  "parent": "superiorslabs:block/slab_top",
   "textures": {
     "bottom": "minecraft:block/smooth_stone",
     "side": "minecraft:block/smooth_stone_slab_side",
